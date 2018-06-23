@@ -2,6 +2,7 @@
 
 int main()
 {
+    // Test
     int niz[5] = {1, 5, 2, 3, 4};
     double nizDouble[3] = {5.555, 4.52222, 10.01};
 
