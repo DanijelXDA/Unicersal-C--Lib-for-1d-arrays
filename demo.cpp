@@ -1,6 +1,6 @@
 #include "1DArray.hpp"
 
-int main()
+int main(void)
 {
     // Test
     int niz[5] = {1, 5, 2, 3, 4};
