@@ -30,5 +30,9 @@ int main()
 
     cout << endl << endl << "Sum of elements (object a2) is: " << sum << endl;
 
+    int mul = a2.arrMul();
+
+    cout << endl << endl << "Multiplication of elements (object a2) is: " << mul << endl;
+
     return 0;
 }

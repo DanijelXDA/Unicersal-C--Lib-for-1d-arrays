@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1537561322 source:c:\users\danijel\desktop\unicersal-c-plusplus-lib-for-1d-arrays-master\demo.cpp
+	"1DArray.hpp"
+
+1537561346 c:\users\danijel\desktop\unicersal-c-plusplus-lib-for-1d-arrays-master\1darray.hpp
+	<iostream>
+

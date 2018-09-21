@@ -87,6 +87,16 @@ class Array {
             return sum;
         }
 
+        // Method which calculates multiplication of elements in array
+        T arrMul(void) {
+            T mul = 1;
+
+            for(int i = 0; i < arrSize; ++i) // Rewriting elements of array
+                mul *= *(pArr + i);
+
+            return mul;
+        }
+
         // Redefining << operator
         friend ostream& operator<<(ostream& out, const Array &a) {
             if(a.arrSize == 0) {
