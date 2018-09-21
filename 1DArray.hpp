@@ -3,7 +3,7 @@
 /* For manipulating with one dimensional */
 /*              array                    */
 /*          Author: Danijel Jovanovic    */
-/*          Date: 22/06/2018             */
+/*          Date: 21/09/2018             */
 ///////////////////////////////////////////
 
 #ifndef ONEDARRAY_HPP_INCLUDED
@@ -96,6 +96,20 @@ class Array {
 
             return mul;
         }
+
+
+        // Method which finds value searched by User in array
+        T arrFind(T reqNumber) {
+            int index = -1; // -1 represents there's no requested element in array
+
+            for(int i = 0; i < arrSize; i++) {
+                if( reqNumber == *(pArr + i) )
+                    index = i; // Number is in array
+
+            }
+            return index;
+        }
+
 
         // Redefining << operator
         friend ostream& operator<<(ostream& out, const Array &a) {
