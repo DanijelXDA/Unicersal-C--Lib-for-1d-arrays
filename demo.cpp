@@ -30,9 +30,25 @@ int main()
 
     cout << endl << endl << "Sum of elements (object a2) is: " << sum << endl;
 
+    // v2
     int mul = a2.arrMul();
 
     cout << endl << endl << "Multiplication of elements (object a2) is: " << mul << endl;
+
+
+    int index = a3.arrFind(5);
+    if( index >= 0 )
+        cout << endl << "Element has been found. Index is: " << index << endl;
+    else
+        cout << endl << "Requested element hasn't found in array!" << endl;
+
+    // Object a2
+    int i = a2.arrFind(3);
+    if( i >= 0 )
+        cout << endl << "Element has been found. Index is: " << i << endl;
+    else
+        cout << endl << "Requested element hasn't found in array!" << endl;
+
 
     return 0;
 }
